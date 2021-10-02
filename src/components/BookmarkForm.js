@@ -51,7 +51,7 @@ function BookmarkForm(props) {
         <input
           type="text"
           placeholder="Song"
-          className="form-control w-75"
+          className="form-control w-100"
           onChange={handleChange}
           
         />
@@ -59,31 +59,31 @@ function BookmarkForm(props) {
         <input
           type="text"
           placeholder="Artist"
-          className="form-control w-75 mt-3"
+          className="form-control w-100 mt-3"
           onChange={handleChangeArtist}
         />
         <input
           type="text"
           placeholder="Album"
-          className="form-control w-75 mt-3"
+          className="form-control w-100 mt-3"
           onChange={handleChangeAlbum}
         />
         <input
           type="text"
           placeholder="Year Released"
-          className="form-control w-75 mt-3"
+          className="form-control w-100 mt-3"
           onChange={handleChangeYear}
         />
         <input
           type="url"
           placeholder="https://www.google.com"
-          className="form-control w-75 mt-3"
+          className="form-control w-100 mt-3"
           onChange={handleChangeLink}
           pattern="https://.*"
         />
 
         <input type="submit" value="Add" className="mt-3" />
-        <input className=" mt-2 ml-2" type="reset" />
+        <input className=" mt-2 ml-5" type="reset" />
       </form>
     </div>
   );
